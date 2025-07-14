@@ -50,11 +50,27 @@
 // console.log(`reverse : ${rev}`)
 
 // 8. palidrom number 
-let num = 256
-let orignal = 256
-let rev = 0
-while(num > 0){
-    rev = rev * 10 + (num % 10)
-    num = Math.floor(num / 10)
+// let num = 256
+// let orignal = 256
+// let rev = 0
+// while(num > 0){
+//     rev = rev * 10 + (num % 10)
+//     num = Math.floor(num / 10)
+// }
+// console.log(`palidrom  : ${rev==orignal ? "palidrom" : "not plidrom"}`)
+
+// 9. prime number 
+num = 7
+res= "Prime"
+if(num%2===0 || num === 0){
+    res="Not prime"
+}else if(num===2){
+     res="Not prime"
+}else{
+    for(let i=3; i<=Math.sqrt(num); i+=2){
+        if (num % i ===0) {
+            res="Not prime"
+        }
+    }
 }
-console.log(`palidrom  : ${rev==orignal ? "palidrom" : "not plidrom"}`)
+console.log(`Result :  ${res}`)
