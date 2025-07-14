@@ -60,17 +60,28 @@
 // console.log(`palidrom  : ${rev==orignal ? "palidrom" : "not plidrom"}`)
 
 // 9. prime number 
-num = 7
-res= "Prime"
-if(num%2===0 || num === 0){
-    res="Not prime"
-}else if(num===2){
-     res="Not prime"
-}else{
-    for(let i=3; i<=Math.sqrt(num); i+=2){
-        if (num % i ===0) {
-            res="Not prime"
-        }
-    }
-}
-console.log(`Result :  ${res}`)
+// num = 7
+// res= "Prime"
+// if(num%2===0 || num === 0){
+//     res="Not prime"
+// }else if(num===2){
+//      res="Not prime"
+// }else{
+//     for(let i=3; i<=Math.sqrt(num); i+=2){
+//         if (num % i ===0) {
+//             res="Not prime"
+//         }
+//     }
+// }
+// console.log(`Result :  ${res}`)
+
+// 10.sum of all digit 
+// let num = 342
+// let sum=0
+// while(num > 0){
+//     sum += num % 10
+//     num = Math.floor(num/ 10)
+// }
+
+// console.log(`sum of all digit ${sum}`)
+
