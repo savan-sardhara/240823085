@@ -35,7 +35,26 @@
 // console.log(`factorial : ${fact}`)
 
 // 6. multiplication table 
-let num=5
-for(let i=1; i<=10; i++){
-    console.log(`${num} X ${i} = ${num*i}`)
+// let num=5
+// for(let i=1; i<=10; i++){
+//     console.log(`${num} X ${i} = ${num*i}`)
+// }
+
+// 7. reverse the number 
+// let num = 256
+// let rev = 0
+// while(num > 0){
+//     rev = rev * 10 + (num % 10)
+//     num = Math.floor(num / 10)
+// }
+// console.log(`reverse : ${rev}`)
+
+// 8. palidrom number 
+let num = 256
+let orignal = 256
+let rev = 0
+while(num > 0){
+    rev = rev * 10 + (num % 10)
+    num = Math.floor(num / 10)
 }
+console.log(`palidrom  : ${rev==orignal ? "palidrom" : "not plidrom"}`)
