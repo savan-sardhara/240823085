@@ -21,4 +21,7 @@
 // 4. sum of natural number 
 const inp=15
 const res=0
-for(i=0; i)
+for(i=0; i<=inp; i++){
+  res=res+inp
+}
+console.log(`output : ${res}`)
