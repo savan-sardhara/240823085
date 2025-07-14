@@ -27,9 +27,15 @@
 // console.log(`output : ${res}`)
 
 // 5 . factorial 
-var num=5
-var fact=1
-for(i=2; i<=num; i++){
-    fact=fact*i
+// var num=5
+// var fact=1
+// for(i=2; i<=num; i++){
+//     fact=fact*i
+// }
+// console.log(`factorial : ${fact}`)
+
+// 6. multiplication table 
+let num=5
+for(let i=1; i<=10; i++){
+    console.log(`${num} X ${i} = ${num*i}`)
 }
-console.log(`factorial : ${fact}`)
