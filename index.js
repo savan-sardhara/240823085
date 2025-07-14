@@ -25,3 +25,15 @@
 //   res+=inp
 // }
 // console.log(`output : ${res}`)
+
+// 5 . factorial 
+var num=10
+var fact=1
+for(i=1; i<=num; i++){
+    if(i==1){
+        fact=1
+    }else{
+        fact+=num*(i-1)
+    }
+}
+console.log(`factorial : ${fact}`)
