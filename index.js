@@ -19,9 +19,9 @@
 // console.log(res)
 
 // 4. sum of natural number 
-const inp=15
-const res=0
-for(i=0; i<=inp; i++){
-  res=res+inp
-}
-console.log(`output : ${res}`)
+// var inp=15
+// var res=0
+// for(i=0; i<=inp; i++){
+//   res+=inp
+// }
+// console.log(`output : ${res}`)
