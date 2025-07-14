@@ -75,7 +75,13 @@
 // }
 // console.log(`Result :  ${res}`)
 
-// 10.sum of all digit 
+
+// 10. count digits in number 
+// let num= 234
+// console.log("digits is number "+num.toString().length)
+
+
+// 11.sum of all digit 
 // let num = 342
 // let sum=0
 // while(num > 0){
@@ -85,3 +91,43 @@
 
 // console.log(`sum of all digit ${sum}`)
 
+// 12. armstrong number 
+// let num= 153,sum=0
+// let orignal = num
+// let pow=num.toString().length
+// while (num > 0) {
+//     lnum = num % 10
+//     sum += Math.pow(lnum,pow)
+//     num = Math.floor(num / 10)
+// }
+// console.log(`Sum is : ${sum} so Number is ${sum===orignal ? "" : "Not"} Armstrong`)
+
+// 13.fibonacci series (try to chek if we coud do somthing about the first two number)
+// let n=5
+// let first=0
+// let second=1
+// console.log(0);
+// console.log(1);
+// for(let i=2; i<n; i++){
+//     sum=first+second
+//     first=second
+//     second=sum
+//     console.log(" "+sum);
+// }
+
+// 14.check vovel constant 
+// let alph='a'
+// let str="apple"
+// if(str.includes('a'||'e'||'i'||'o'||'u')){
+//     console.log("vowel");
+// }else{
+//     console.log("constant");
+// }
+
+// 15.input to arthmetic operation
+// let arith="15 + 5"
+// let res = eval(arith)
+// console.log(res);
+
+
+// 16. Find GCD (HCF)
