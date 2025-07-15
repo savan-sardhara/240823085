@@ -131,3 +131,72 @@
 
 
 // 16. Find GCD (HCF)
+// let num1=20,num2=28
+// while(num2!=0){
+//     let temp=num2
+//     num2=num1%num2
+//     num1=temp
+// }
+// console.log(num1);
+
+// ----------OR----------
+
+// const arr1=new Array();
+// const arr2=new Array();
+// for(let i=1; i<=num1; i++){
+//     if(num1%i==0){
+//         arr1.push(i)
+//     }
+// }
+// for(let i=1; i<=num2; i++){
+//     if(num2%i==0){
+//         arr2.push(i)
+//     }
+// }
+//let common arr1.filter((val)=>arr2.includes(val))
+// consol.log(Maths.max(...commmon))
+
+
+
+// 17.perfect number 
+// let num=28,sum=0
+// for(let i=1;i<num; i++){
+//     if (num%i==0) {
+//         sum=sum+i
+//     }
+// }
+// console.log(`${sum===num?"Perfect":"Not Perfect"}`);
+
+// 18. print all the divisor
+// let num=10
+// for(let i=0; i<=num; i++){
+//     if(num%i==0){
+//         console.log(i)
+//     }
+// }
+
+// 19.positve,negativve,zero
+// let num=20
+// if(num==0){
+//     console.log("zero")
+// }else if(num<0){
+//     console.log("Negative");
+// }else{
+//     console.log("positive");
+// }
+
+// 20. find power (exponetial)
+// let num=2,pow=3
+// let res=1
+// for(let i=0;i<pow;i++){
+//     res*=num
+// }
+// console.log(res);
+
+// -----------OR---------
+
+// console.log(num**pow)
+
+// --------OR------------
+
+// console.log(Math.pow(num,pow))
